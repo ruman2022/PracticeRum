@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.112416">
+<testcase classname="create accounts" name="target create account" time="0.112416">
+<system-out><![CDATA[Given User on alraedy home page.............................................passed
+When user click on sign in..................................................passed
+Then click on create account................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 194382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "target create account",
+        "description": "",
+        "id": "create-accounts;target-create-account",
+        "after": [
+          {
+            "result": {
+              "duration": 117176,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksStepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106599664,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on alraedy home page",
+            "match": {
+              "location": "hooksStepDefination.user_on_alraedy_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61922,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on sign in",
+            "match": {
+              "location": "hooksStepDefination.user_click_on_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5443076,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on create account",
+            "match": {
+              "location": "hooksStepDefination.click_on_create_account()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create accounts",
+    "description": "",
+    "id": "create-accounts",
+    "keyword": "Feature",
+    "uri": "/Users/iftakerahmed/IdeaProjects/ScenarioOutline/src/main/java/Features/hooks.feature"
+  }
+]
